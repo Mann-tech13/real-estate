@@ -1,0 +1,55 @@
+.header {
+    background-color: #fbfaff !important;
+}
+
+.logoAndname {
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #000;
+    padding: 0 10px;
+}
+
+.subsection {
+    margin: 0 10px;
+    padding: 0 15px;
+}
+
+.login {
+    color: rgb(70, 29, 109);
+    border: 1px solid rgb(70, 29, 109);
+    margin: 0 20px;
+}
+
+.login:hover {
+    color: #ffffff;
+    background-color: rgb(70, 29, 109);
+}
+
+.signup {
+    color: #ffffff;
+    background-color: rgb(70, 29, 109);
+    border: 1px solid rgb(70, 29, 109);
+}
+
+.signup:hover {
+    background-color: #ffffff;
+    color: rgb(70, 29, 109);
+    border: 1px solid rgb(70, 29, 109);
+}
+
+.dropdown {
+    padding: 0 20px;
+}
+
+.rent:hover,
+.buy:hover,
+.sell:hover,
+.dropdown:hover {
+    border-bottom: 1px solid rgb(70, 29, 109);
+}

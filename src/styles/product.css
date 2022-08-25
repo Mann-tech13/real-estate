@@ -1,0 +1,158 @@
+.product {
+    background-color: #f8f7fd;
+    padding: 0 8%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.headingcontent {
+    flex: 0.8
+}
+
+.search {
+    flex: 0.2;
+    width: 50%;
+}
+
+.heading>button {
+    padding: 3px 15px;
+    margin: 0 10px;
+    background-color: purple;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.heading>button:hover {
+    box-shadow: #ffffff 0px 50px 100px -20px, #ffffff 0px 30px 60px -30px, #ffffff 0px -2px 6px 0px inset;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block-card {
+    flex: 0 0 345px;
+    margin: 10px 5px;
+    background-color: #ffffff;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.block-card p {
+    margin-bottom: 2px;
+}
+
+.block-card p span {
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(109, 29, 131);
+}
+
+.block-card div {
+    padding: 0 12px;
+    padding-bottom: 10px;
+}
+
+.head {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.headcontent {
+    color: grey;
+}
+
+.propertyImg {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.block-card div hr {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bed,
+.bathroom,
+.bed {
+    color: purple;
+}
+
+.filterBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 15px 0;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.subcontent {
+    color: grey;
+}
+
+.content,
+.price,
+.datetime,
+.property {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.filteredval {
+    padding: 10px 15px;
+    background-color: purple;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.filteredval:hover {
+    box-shadow: #ffffff 0px 50px 100px -20px, #ffffff 0px 30px 60px -30px, #ffffff 0px -2px 6px 0px inset;
+}
+
+.location>p {
+    margin-bottom: 0;
+}
+
+.Timeline>p {
+    margin-bottom: 0;
+}
+
+.Range>p {
+    margin-bottom: 0;
+}
+
+.propertyType>p {
+    margin-bottom: 0;
+}
+
+.react-datepicker__input-container>input {
+    border: none;
+}
+
+.Range>select {
+    border: none;
+}
+
+.propertyType>select {
+    border: none;
+}
